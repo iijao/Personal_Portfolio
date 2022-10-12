@@ -432,7 +432,7 @@ a.ativo{
 .me-purple{
     width: 300px;
     height: 471px;
-    position: fixed;
+    position: absolute;
     top: 30%;
     right: 10%;
     box-shadow: 3px 3px 10px rgb(27, 27, 27);
@@ -1088,6 +1088,7 @@ a.ativo{
     position: absolute;
     right: 0vw;
     transition: right 1s ease-in-out;
+    overflow-y: scroll;
 }
 .content3-dark{
     width: 80vw;
@@ -1096,6 +1097,7 @@ a.ativo{
     position: absolute;
     right: 0vw;
     transition: right 1s ease-in-out;
+    overflow-y: scroll;
 }
 
 .services-content{
@@ -1103,7 +1105,7 @@ a.ativo{
     color: var(--blue-text);
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 100px;
     position: relative;
 }
 .services-content-dark{
@@ -1138,7 +1140,7 @@ a.ativo{
 .service1{
     display: flex;
     justify-content: space-between;
-    margin: 50px 100px 0 100px;
+    margin: 30px 100px 30px 100px;
     gap: 30px;
     text-align: center;
 }
@@ -1147,7 +1149,8 @@ a.ativo{
     flex-direction: column;
     align-items: center;
     width: 300px;
-    height: 250px;
+    height: auto;
+    padding: 0 5px 20px 5px;
     background-color: var(--white-menu);
     color: var(--blue-text);
     border-radius: 10px;
