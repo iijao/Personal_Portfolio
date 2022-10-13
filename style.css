@@ -1105,7 +1105,6 @@ a.ativo{
     color: var(--blue-text);
     display: flex;
     flex-direction: column;
-    gap: 100px;
     position: relative;
 }
 .services-content-dark{
@@ -1113,7 +1112,6 @@ a.ativo{
     color: var(--white-text);
     display: flex;
     flex-direction: column;
-    gap: 20px;
     position: relative;
 }
 
@@ -1141,7 +1139,7 @@ a.ativo{
     display: flex;
     justify-content: space-between;
     margin: 30px 100px 30px 100px;
-    gap: 30px;
+    gap: 10px;
     text-align: center;
 }
 .serv1{
@@ -1150,7 +1148,7 @@ a.ativo{
     align-items: center;
     width: 300px;
     height: auto;
-    padding: 0 5px 20px 5px;
+    padding: 0 15px 20px 15px;
     background-color: var(--white-menu);
     color: var(--blue-text);
     border-radius: 10px;
@@ -1161,7 +1159,7 @@ a.ativo{
     flex-direction: column;
     align-items: center;
     width: 300px;
-    height: 250px;
+    height: auto;
     background-color: var(--light-gray);
     color: var(--white-text);
     border-radius: 10px;
@@ -1176,21 +1174,28 @@ a.ativo{
     transition: all .5s;
     background-color: var(--purple);
 }
-.serv1::before{
+.serv1 h2{
+    position: relative;
+}
+.serv1 h2::before{
     content: '';
     width: 100px;
     height: 3px;
     background-color: #1b1c27;
     position: absolute;
-    top: 127px;
+    bottom: -10px;
+    right: 50%;
+    transform: translateX(50%);
 }
-.serv1-dark::before{
+.serv1-dark h2::before{
     content: '';
     width: 100px;
     height: 3px;
     background-color: var(--white-text);
     position: absolute;
-    top: 127px;
+    bottom: -10px;
+    right: 50%;
+    transform: translateX(50%);
 }
 .logoserv-orange{
     width: 50px;
