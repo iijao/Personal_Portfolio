@@ -1106,6 +1106,7 @@ a.ativo{
     display: flex;
     flex-direction: column;
     position: relative;
+    gap: 0px;
 }
 .services-content-dark{
     margin: 100px 100px 10px 100px;
@@ -1113,6 +1114,7 @@ a.ativo{
     display: flex;
     flex-direction: column;
     position: relative;
+    gap: 0px;
 }
 
 
