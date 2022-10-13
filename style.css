@@ -1139,7 +1139,7 @@ a.ativo{
 }
 .service1{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 30px 100px 30px 100px;
     gap: 10px;
     text-align: center;
@@ -1155,6 +1155,7 @@ a.ativo{
     color: var(--blue-text);
     border-radius: 10px;
     position: relative;
+    margin-right: 20px;
 }
 .serv1-dark{
     display: flex;
